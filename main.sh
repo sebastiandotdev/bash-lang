@@ -1,3 +1,3 @@
 #! /bin/bash
 
-echo "Hola, Mundo"
+cat > main.txt
