@@ -2,4 +2,5 @@ texto con el comando cat
 puedes escribir las veces que quieras
 y cat no se detieene
 bash script se ve geniañ
-genial, perdon.
+genial, perdon.bash no remplazara lo escrito con el comando ">>"
+geniial, no?

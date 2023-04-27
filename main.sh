@@ -1,3 +1,6 @@
 #! /bin/bash
 
-cat > main.txt
+# esta expresion ">>" no eliminara lo escrito anteriormente
+cat >> main.txt
+
+# mas comentarios
