@@ -4,3 +4,5 @@ y cat no se detieene
 bash script se ve geniañ
 genial, perdon.bash no remplazara lo escrito con el comando ">>"
 geniial, no?
+funciona tal cual
+no pasara nada
