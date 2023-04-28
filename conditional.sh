@@ -26,3 +26,20 @@ then
 else
     echo "el numero es mayor que 10"    
 fi    
+
+
+# Alternativa
+
+if (( $age >= 10 ))
+then
+    echo "el numero es mayor o igual a: $age"
+else
+    echo "el numero es menor o igual a: $age"    
+fi    
+
+if (( $age == 10 ))
+then
+    echo "el numero es mayor o igual a: $age"
+else
+    echo "el numero es menor o igual a: $age"    
+fi  
