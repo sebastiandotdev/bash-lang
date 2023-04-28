@@ -43,3 +43,15 @@ then
 else
     echo "el numero es menor o igual a: $age"    
 fi  
+
+# else if
+
+if (( $age == 10 ))
+then
+    echo "el numero es mayor o igual a: $age"
+elif (( $age > 18 ))
+then
+    echo "eres un adulto"
+else
+    echo "el numero es menor o igual a: $age"    
+fi
