@@ -8,3 +8,9 @@ do
     echo $number
     number=$((number + 1))
 done
+
+until [ $number -ge 10 ]
+do
+    echo $number
+    number=$((number + 1))
+done
