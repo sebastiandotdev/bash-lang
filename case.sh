@@ -1,7 +1,6 @@
 #! /bin/bash
 
-echo "escoge entre 1 y 2:"
-
+echo "escoge entre el valor 1 o 2:"
 read valor
 
 case $valor in
