@@ -15,3 +15,5 @@ then
 else
     echo "edad invalida"
 fi
+
+## operadores
