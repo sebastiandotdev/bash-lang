@@ -2,7 +2,6 @@
 
 
 number=1
-
 while [ $number -le 10 ]
 do
     echo $number
@@ -17,5 +16,16 @@ done
 
 for i in 1 2 3 4 5
 do
-    echo $1
+    echo $i
 done    
+
+
+for i in {0..100..20}
+do
+  echo $i
+done 
+
+for (( i=0; i < 10; i++ ))
+do
+    echo $i
+done
