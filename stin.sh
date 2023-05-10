@@ -3,4 +3,4 @@
 while read line
 do
     echo $line
-done <  "${/dev/stdin}"    
+done <  "${1:-/dev/stdin}"    
