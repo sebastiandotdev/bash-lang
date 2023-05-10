@@ -1,15 +1,12 @@
 #! /bin/bash
 
-echo "valor del input1"
-read input1
+echo "What your name: "
+read name
 
 
-echo "valor de input2"
-read input2
+echo "write un adjetive: "
+read adjetive
 
-if [ $input1 == $input2 ]
-then
-    echo "succesfully"
-else
-    echo "something wrong"
-fi    
+result="$name is $adjetive"
+
+echo $result
