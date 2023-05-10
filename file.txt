@@ -1,0 +1,15 @@
+argv.sh
+case.sh
+conditional.sh
+continue_break.sh
+file.txt
+LICENSE
+loops.sh
+main.sh
+main.txt
+operadores.sh
+out.sh
+read.sh
+README.md
+stdout.sh
+stin.sh
