@@ -1,7 +1,12 @@
 #! /bin/bash
 
 function sayHello() {
-    echo "Hello, Worl"
+    echo "Hello, World"
 }
 
-sayHello
+
+function params() {
+    echo $1
+}
+
+params "sebastian"
