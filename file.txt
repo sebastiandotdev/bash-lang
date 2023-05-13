@@ -1,0 +1,1 @@
+escribiendo contenido desde bash script
