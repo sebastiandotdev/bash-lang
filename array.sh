@@ -3,10 +3,12 @@
 opcion_one="rs"
 opcione_two="ts"
 
-name=( "sebastian" "mark" "james" "jhon" "alex" )
+names=( "sebastian" "mark" "james" "jhon" "alex" )
 
-echo ${name[@]}
-echo ${name[2]}
+echo ${names[@]}
+echo ${names[2]}
 
-echo ${!name[@]}
-echo ${#name[@]}
+echo ${!names[@]}
+echo ${#names[@]}
+
+echo "${names[${#names[@]}-1]}"
