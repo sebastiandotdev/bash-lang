@@ -3,4 +3,4 @@
 echo "ingresa tu url: "
 read url
 
-curl $url
+curl $url > db.json
