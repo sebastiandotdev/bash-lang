@@ -1,11 +1,25 @@
 #! /bin/bash
 
-echo "Cual va ser el nombre de tu carpeta: "
-read folder
+# echo "Cual va ser el nombre de tu carpeta: "
+# read folder
 
-if [ -d $folder ]
+# if [ -d $folder ]
+# then
+#     echo "el directorio $folder existe"
+# else
+#     echo "el directorio $folder no existe"    
+# fi    
+
+
+echo "Escribe el nombre de tu archivo: "
+read file
+
+if [ -f $file ]
 then
-    echo "el directorio $folder existe"
+    echo "Escribe tu contenido: "
+    read contenido
+
+    echo $contenido >> $file
 else
-    echo "el directorio $folder no existe"    
+    echo "  el archivo $file no existe"    
 fi    
