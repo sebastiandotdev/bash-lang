@@ -1,4 +1,5 @@
 # Bash Scripts
 
 
-- [Metas](Project with Bash)
+- Project with Bash
+- Use Bash language
